@@ -19,7 +19,7 @@ export default async function handler(req: any, res: any) {
 
     const genAI = new GoogleGenerativeAI(apiKey);
     const model = genAI.getGenerativeModel({
-      model: 'gemini-3.0-flash-preview',
+      model: 'gemini-3-flash-preview',
     });
 
     const combinedContent = documents
